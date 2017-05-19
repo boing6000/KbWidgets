@@ -1,0 +1,1 @@
+<video class="video" data-url="<?php echo $url?>" controls crossorigin></video>

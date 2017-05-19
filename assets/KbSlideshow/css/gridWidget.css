@@ -1,0 +1,43 @@
+
+.ipPluginSlideShowPopup iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ip.ipPluginSlideShowPopup .modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.ip.ipPluginSlideShowPopup .modal-content {
+    height: 86%;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+}
+
+.ip.ipPluginSlideShowPopup .modal-footer {
+    margin-top: -5px;
+}
+
+.ip.ipPluginSlideShowPopup iframe .ipAdminBody{
+    background-color: #fff;
+}
+
+.ip.ipPluginSlideShowPopup iframe .ipsGrid {
+    width: 107%;
+    margin-left: -28px;
+}
+/*
+.ip.ipPluginSlideShowPopup .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+*/

@@ -1,0 +1,83 @@
+.ipWidget-KbMap .floating-directions-panel {
+    top: 1.5% !important;
+    left: 1% !important;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: left;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    width: calc(100% /3);
+}
+
+.ipWidget-KbMap .floating-directions-panel.mini{
+    width: auto;
+}
+
+.ipWidget-KbMap .floating-directions-panel .directions {
+    overflow: auto;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 3000px) and (min-width: 1025px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        width: calc(100% /3);
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1023px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        width: calc(100% /3);
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 767px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        width: calc(100% /1.8);
+    }
+}
+
+@media screen and (max-width: 736px) and (min-width: 731px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        width: calc(100% /1.8);
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width: 666px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        width: calc(100% /1.8);
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 569px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 568px) and (min-width: 415px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 374px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) and (min-width: 359px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 319px) {
+    .ipWidget-KbMap .floating-directions-panel{
+        display: none;
+    }
+
+}
